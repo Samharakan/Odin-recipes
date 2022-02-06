@@ -1,81 +1,79 @@
-<style>
-            .bdiv {
-                width: 300px;
-                height: 300px;
-                border: 0;
-                border-radius: 10px;
-                margin-top: auto;
-                margin-bottom: auto;
-                margin-left: auto;
-                margin-right: auto;
-                position: relative;
-            }
-            #container {
-                position: relative;
-                border: 0 solid white;
-                display: flex;
-                height: 400px;
-                grid-column-gap: 0;
-            }
 
-            ul {
-                font-size: 30px;
-                margin-left: auto;
-                margin-right: auto;
-                padding-left: 40%;
-                text-decoration: none;
-            }   
-
-             .all-dish {
-                margin-left: 4rem;
-                margin-right: 5rem;
-                margin-top: 50px;
-                margin-bottom: 50px;
-               }
-
-            .all-dish:hover
-               {
-                color: rgb(224, 95, 9);
-                box-shadow: 0px 5px 5px 10px rgb(252, 250, 250);
-                text-decoration: none;
-                transform: scale(1.08);
-            }
-
-            li:hover {
-                color: rgb(209, 130, 12);
-                transform: scale(1.28);
-            }
-
-            li {
-                margin-top: 10px;
-                text-decoration: none;
-                color: rgb(214, 187, 63);
-               }
-            
-            img {
-                width: 100%;
-                height: 100%;
-                border-radius: 5px;
-                object-fit: fill;
-            }
-            
-            a {
-                text-decoration: none;
-            }
+        <style type="text/css">
             h2 {
-                font-size: 50px;
-                color: rgb(214, 187, 63);
-                text-align: center;
-                box-shadow: 0px 5px 5px 10px rgb(251, 252, 248);
-                border-radius: 15px;
+                
             }
 
-            h3 {
-                font-size: 20px;
-                color: brown;
-                text-align: center;
-            }
-            h4 {
-                text-align: center;
-            }
-        </style>
+        #hdiv {
+            border: 10px solid rgb(250, 244, 244);
+            width: auto;
+            height: 60px;
+            text-align: center;
+            border-radius: 15px;
+            padding-bottom: 2rem;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(197, 173, 55);
+            box-shadow: 5px 5px 5px 5px;
+
+              }
+
+        #container {
+            border: 0 solid black;
+            width: auto;
+            height: 350px;
+            display: flex;
+            column-gap: 30px;
+            margin-top: 3rem;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            padding-top: 3rem;
+            text-align: center;
+        }
+        .subcondiv {
+            border: 2px solid black;
+            width: 20rem;
+            height: 300px;
+            margin-right: 2rem;
+            margin-left: 1rem;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px 5px;
+        }
+        #lstdiv {
+            border: 0 solid black;
+            width: auto;
+            height: 5rem;
+            text-align: center;
+        }
+        img{
+            width: 20rem;
+            height: 300px;
+            border-radius: 5px;
+        }
+        h4{
+            text-align: center;
+        }
+        a,
+        ul {
+            text-decoration: none;
+            color: brown;
+        }
+        li {
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+
+        li:hover {
+            color: rgb(197, 173, 55);
+            transform: scale(1.45);
+        }
+        a:hover {
+            transform: scale(1.05);
+            color: rgb(197, 173, 55);
+
+        }
+
+
+       
+
+    </style>

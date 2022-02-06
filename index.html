@@ -1,72 +1,75 @@
 <!DOCTYPE html>
-<html lang="en-US" style="background-color: rgb(128, 128, 163);">
+<html style="background-color: rgb(226, 224, 224);">
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" ./>
+        <meta name="description" content="top three recipes" />
+        <link rel="stylesheet" href="index.css">
+        <title>Odin Recipes</title>
 
-        <meta  charset="UTF-8" />
-        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="description"  content="Odin project" />
-<!--
-        <link rel="stylesheet" href="index.css"/>
--->
-        <title> Project:Recipes</title>
     </head>
 
     <body>
 
         <header>
-                <h2>Odin Recipes</h2>
+
+                <div  id="hdiv">
+                    <h2>
+                        Odin Recipes
+                    </h2>
+                </div>
+
         </header>
 
         <main>
-            <div id="container">
-
-                <a href="link" target="_blank" class="all-dish" >
-                    <div class="bdiv">
-                        <img src="pic" alt="This is a plate of eggsauce and plaintain" />
-                        <h3>Egg sauce & plantain</h3>
-                    </div>
-                </a>
-
-                <a href="link" target="_blank" class="all-dish">
-
-                    <div class="bdiv">
-                        <img src="pic" alt="this is a plate of jollof rice">
-                        <h3> Ghana Jollof</h3>
-                    </div>
-                </a>
-                
-                <a href=" link" target="_blank" class="all-dish">
-                    <div class="bdiv">
-                        <img src=" pic" alt="this is a plate of assorted fried rice">
-                        <h3>Assorted Fried Rice</h3>
-                    </div>
-                </a>
-
-            </div>
-                <ul>
-
-                    <a href="link" class="pagenav">
-
-                    <li>Egg Sauce & plantain</li>
+                <div id="container">
+                    <a href="recipes/Egg_sauce.html" target="_blank">
+                        <div class="subcondiv">
+                            <img src="images/eggsauceplantain.jpeg" alt="this is a picture of Egg sauce and plantain">
+                            <h3>
+                                Egg sauce 
+                            </h3>
+                        </div>
                     </a>
 
-                    <a href="link" class="pagenav">
+                    <a href="recipes/Ghana_jollof.html" target="_blank">
+                        <div class="subcondiv">
+                            <img src="images/Jollof-Rice.jpeg" alt="this is a picture of Ghana jollof">
+                            <h3>
+                                Ghana Jollof
+                            </h3>
+                        </div>
+                    </a>
 
-                        <li> Ghana Jollof</li>
+                    <a href="recipes/Assorted_fied_rice.html" target="_blank">
+                        <div class="subcondiv">
+                            <img src="images/assorted_friedrice.jpeg" alt="this is a picture of  assorted fied rice">
+                            <h3>
+                                Assorted Fried rice
+                            </h3>
+                        </div>
+                    </a>
+                    
+                </div>
+                <div id="lstdiv">
+                    <ul>
+                        <a href="recipes/Egg_sauce.html">
+                        <li> Egg Sauce</li>
                         </a>
-
-                        <a href="link"  class="pagenav">
-
-                            <li>Assorted Fried Rice</li>
-                            </a>
-     
+                        <a href="recipes/Ghana_jollof.html">
+                        <li>Ghana Jollof</li>
+                        </a>
+                        <a href="recipes/Assorted_fied_rice.html">
+                        <li>Assorted Fried Rice</li>
+                        </a>
+                    </ul>
+                </div>
         </main>
         <footer>
-            <hr />
-            <h4>
-            2022   Sam_Harakan:Odin Project | Recipes
-            </h4>
+            <hr  style="border: 1px solid black"/>
+            <h4> &copy  Sam_harakan 2022 | Odin project 1</h4>
         </footer>
+
     </body>
 </html>
