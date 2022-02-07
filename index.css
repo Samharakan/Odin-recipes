@@ -3,7 +3,6 @@
             h2 {
                 
             }
-
         #hdiv {
             border: 10px solid rgb(250, 244, 244);
             width: auto;
@@ -58,22 +57,9 @@
             text-decoration: none;
             color: brown;
         }
-        li {
-            padding-top: 2px;
-            padding-bottom: 2px;
-        }
-
-        li:hover {
-            color: rgb(197, 173, 55);
-            transform: scale(1.45);
-        }
         a:hover {
             transform: scale(1.05);
             color: rgb(197, 173, 55);
 
         }
-
-
-       
-
     </style>
